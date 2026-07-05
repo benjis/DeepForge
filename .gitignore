@@ -1,0 +1,33 @@
+# Build artifacts
+out/
+dist/
+.cache/
+*.log
+
+# macOS
+.DS_Store
+
+# Backend
+backend/
+
+# DeepSeek data
+.deepseek/
+
+# Local environment
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Secrets
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+
+# VS Code
+.vscode/
+
+# Git worktrees
+.worktrees/

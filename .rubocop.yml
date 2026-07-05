@@ -1,0 +1,53 @@
+plugins:
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+  Exclude:
+    - 'backend/**/*'
+    - 'node_modules/**/*'
+    - 'out/**/*'
+    - 'docs/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/ClassLength:
+  Max: 300
+
+Metrics/AbcSize:
+  Max: 80
+
+Layout/LineLength:
+  Max: 120
+
+Naming/MethodParameterName:
+  Enabled: false
+
+# Relax RSpec block length (spec blocks are naturally long)
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+# RSpec-specific cops
+RSpec/ExampleLength:
+  Max: 20
+
+RSpec/MultipleExpectations:
+  Max: 5
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/DescribeClass:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 5
+
+RSpec/InstanceVariable:
+  Enabled: false
