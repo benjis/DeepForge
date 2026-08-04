@@ -19,7 +19,7 @@ DeepForge is a Ruby-based agent runtime built with Clean Architecture (Domain-Dr
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/deepforge.git
+git clone https://github.com/benjis/DeepForge
 cd deepforge
 bundle install
 ```

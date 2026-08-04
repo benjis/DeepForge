@@ -19,8 +19,8 @@ DeepForge 是一个基于 Ruby 的 Agent 运行时，采用 Clean Architecture�
 ## 安装
 
 ```bash
-git clone https://github.com/your-org/deepforge.git
-cd deepforge
+git clone https://github.com/benjis/DeepForge.git
+cd DeepForge
 bundle install
 ```
 
